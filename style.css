@@ -3,3 +3,106 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(36, 100%, 99%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    font-family: 'Inter';
+}
+
+.container__header,
+.container__main,
+.container__footer {
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.container__logo__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.icono__bar {
+    width: 40px;
+}
+
+/*Estilos para el NAV*/
+.container__nav {
+    position: absolute;
+    background-color: hsl(36, 100%, 99%);
+    min-width: 70vw;
+    min-height: 100vh;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    text-align: end;
+}
+
+.icono__bar__close {
+    width: 28px;
+}
+
+.list__nav {
+    text-align: start;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.nav__none {
+    display: none;
+}
+/*-------------------*/
+/*NONE DESKTOP*/
+.img__principal__desktop {
+    display: none;
+}
+/*------------*/
+
+.img__principal__mobile {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 2.6em;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.paragraph {
+    color: hsl(236, 13%, 42%);
+    margin: 15px 0;
+    font-size: .9em;
+    line-height: 1.55em;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+    border: 1px solid hsl(5, 85%, 63%);
+    color: #FFF;
+    font-family: 'Inter';
+    font-weight: 700;
+    max-width: 50%;
+    min-width: 50%;
+    padding: 14px 0;
+    letter-spacing: 3px;
+    font-size: .85em;
+    margin: 10px 0;
+}
+
+.container__aside {
+    margin-top: 40px;
+}
